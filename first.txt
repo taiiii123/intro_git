@@ -1,7 +1,7 @@
 Gitの練習です。
-基本的なワークフローを学びます。
-・git add
-・git commit
-・git rm
-・git status
-・git diff
+リモートリポジトリにプッシュ
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/XXXX/XXXXXX.git
+git push -u origin master
